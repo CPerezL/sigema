@@ -1,0 +1,49 @@
+body {
+  font-family:Arial,Verdana;
+  padding:0px;
+  font-size:8px !important;
+  margin:0;
+}
+
+/*// CUSTOM CONFIGURACTION*/
+.column-1 {
+  float: left;
+  width: 99%;
+  padding: 2px;
+}
+.column-2 {
+  float: left;
+  width: 49%;
+  padding: 2px;
+}
+.column-3 {
+  float: left;
+  width: 32%;
+  padding: 2px;
+}
+.column-4 {
+  float: left;
+  width: 19%;
+  padding: 2px;
+}
+
+/*elimina bordes de textbox*/
+.textbox-readonly{
+  border-color: #fff;
+  border-top-style: hidden;
+}
+/*grids*/
+#mytab table {
+  border-collapse: collapse;
+}
+#mytab td {
+  border: 1px solid #c6c7cc;
+  padding: 10px 15px;
+}
+#mytab th {
+  border: 1px solid #c6c7cc;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.Estilo2 {color: #FFFFFF; font-weight: bold; }
